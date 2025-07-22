@@ -10,7 +10,7 @@ namespace BigO.Validation;
 public static partial class Guard
 {
     /// <summary>
-    ///     Ensures that a numeric value is <strong>strictly greater than&nbsp;zero</strong>.
+    ///     Ensures that a numeric value is <strong>strictly greater than zero</strong>.
     /// </summary>
     /// <typeparam name="T">Any numeric type that implements <see cref="INumber{TSelf}" />.</typeparam>
     /// <param name="value">The value to validate.</param>

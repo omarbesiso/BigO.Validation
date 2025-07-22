@@ -1,9 +1,37 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>BigO Validation</Title>
+		<Product>BigO Library</Product>
+		<Description>BigO.Core contains base validation utilities and extensions.</Description>
+		<Copyright>Copyright © Omar Besiso 2025</Copyright>
+		<PackageProjectUrl>https://github.com/omarbesiso/BigO.Validation</PackageProjectUrl>
+		<PackageIcon>bigo.png</PackageIcon>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/omarbesiso/BigO.Validation.git</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<Authors>Omar Besiso</Authors>
+		<Version>9.0.0</Version>
+		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Resource Include="..\..\Readme.md">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</Resource>
+		<Resource Include="Resources\bigo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</Resource>
+	</ItemGroup>
 
 </Project>
