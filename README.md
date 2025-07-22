@@ -22,9 +22,7 @@
 5. [PropertyGuard API](#propertyguard-api)
 6. [DataAnnotations Extensions](#dataannotations-extensions)
 7. [Design Notes](#design-notes)
-8. [Road‑map](#road-map)
-9. [Contributing](#contributing)
-10. [License](#license)
+8. [License](#license)
 
 ------
 
