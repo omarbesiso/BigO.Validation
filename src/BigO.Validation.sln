@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigO.Validation", "BigO.Validation\BigO.Validation.csproj", "{5CCDABD3-691E-4E54-B6A6-E65026F26364}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CCDABD3-691E-4E54-B6A6-E65026F26364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCDABD3-691E-4E54-B6A6-E65026F26364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCDABD3-691E-4E54-B6A6-E65026F26364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCDABD3-691E-4E54-B6A6-E65026F26364}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FED62FF1-2F25-4730-9827-CA9BCF39C1D7}
+	EndGlobalSection
+EndGlobal
