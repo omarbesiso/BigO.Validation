@@ -1,6 +1,6 @@
 ﻿# BigO.Validation
 
-##TL;DR
+## TL;DR
 
 **BigO.Validation** is a *tiny* but **surgical** guard/validation helper for .NET 9+.
  It offers:
