@@ -36,7 +36,7 @@ public static partial class Guard
     ///     length is less than <paramref name="minLength" />.
     /// </exception>
     /// <remarks>
-    ///     Use <see cref="NotNull{T}(T?,string,string?)" /> or
+    ///     Use <see cref="NotNull{T}(T,string,string?)" /> or
     ///     <see cref="NotNullOrEmpty(string?,string,string?)" /> when you also need
     ///     to forbid <see langword="null" /> or empty strings.
     /// </remarks>
