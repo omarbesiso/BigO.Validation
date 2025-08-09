@@ -17,12 +17,11 @@ public static class ValidationExtensions
     /// <typeparam name="T">The type of the object being validated. Must be a reference type.</typeparam>
     /// <param name="request">The object instance to validate. Must not be null.</param>
     /// <param name="errors">
-    ///     When this method returns <c>false</c>, contains a dictionary of validation errors.
+    ///     Contains a dictionary of validation errors.
     ///     Keys are the names of members with errors, or a specific key (e.g., "Global") for object-level errors.
     ///     Values are arrays of error messages for that key.
-    ///     When this method returns <c>true</c>, this dictionary is empty.
+    ///     The dictionary is empty if the object passes all validation rules.
     /// </param>
-    /// <returns><c>true</c> if the <paramref name="request" /> object passes all validation rules; otherwise, <c>false</c>.</returns>
     /// <remarks>
     ///     This method simplifies calls to the underlying validation logic based on
     ///     <see cref="System.ComponentModel.DataAnnotations.Validator" />.
